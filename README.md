@@ -35,6 +35,6 @@ The main idea is to build a simple, efficient, and trustworthy system that helps
 
 # System Flow
 
-      <img width="282" height="591" alt="deepguard_system_flow" src="https://github.com/user-attachments/assets/618ca51d-bbfb-4b12-a447-19a279432894" />
+   <img width="282" height="591" alt="deepguard_system_flow" src="https://github.com/user-attachments/assets/618ca51d-bbfb-4b12-a447-19a279432894" />
 
 
