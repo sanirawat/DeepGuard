@@ -21,12 +21,9 @@ DeepGuard aims to solve this problem by providing a multimodal deepfake detectio
 The core idea of DeepGuard is to detect deepfakes by analyzing both visual and audio information together, instead of relying on just one type of data. Most fake media can trick systems that only look at images or only listen to audio, but inconsistencies often appear when both are examined at the same time.
 
 DeepGuard works by:
-
-Studying facial features and movements from images or videos
-
-Analyzing audio patterns such as tone and speech characteristics
-
-Combining both results to make a final and more reliable decision
+- Studying facial features and movements from images or videos
+- Analyzing audio patterns such as tone and speech characteristics
+- Combining both results to make a final and more reliable decision
 
 By using this multimodal approach, the system can identify subtle mismatches between what is seen and what is heard — a common trait of deepfakes.
 
