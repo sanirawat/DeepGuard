@@ -17,10 +17,11 @@ DeepGuard can be useful in areas like social media monitoring, fake content dete
 # Problem Statement
 With the rapid growth of artificial intelligence, creating fake images, videos, and audio has become easier than ever. These deepfakes are increasingly used to spread misinformation, manipulate public opinion, and damage trust in digital content. Most existing detection systems focus on only one type of data, such as images or videos, which makes them unreliable when content is partially altered or manipulated in multiple ways.
 
-There is a need for a more reliable solution that can analyze both visual and audio information together. By combining these modalities, it becomes easier to identify inconsistencies that are difficult to detect using a single source.
+In addition, many existing solutions lack transparency and provide limited insight into how detection decisions are made. This often reduces user trust, especially when systems act as black boxes without clear explanations or real-time reliability.
 
-DeepGuard aims to solve this problem by providing a multimodal deepfake detection system that analyzes images, videos, and audio together to identify manipulated content accurately and efficiently. The goal is to build a system that is practical, scalable, and capable of supporting real-world digital trust and media verification.
+There is a need for a more dependable solution that can analyze both visual and audio information together. By combining these modalities, it becomes easier to detect subtle inconsistencies that are difficult to identify using a single source.
 
+DeepGuard aims to solve this problem by providing a multimodal deepfake detection system that analyzes images, videos, and audio together to identify manipulated content accurately and efficiently. The goal is to build a system that is practical, transparent, and scalable, supporting real-world digital trust and media verification.
 # Core Idea
 The core idea of DeepGuard is to detect deepfakes by analyzing both visual and audio information together, instead of relying on just one type of data. Most fake media can trick systems that only look at images or only listen to audio, but inconsistencies often appear when both are examined at the same time.
 
