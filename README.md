@@ -1,9 +1,8 @@
 # DeepGuard  
 ### Guarding Digital Truth Against Deepfakes
 
-DeepGuard is a multimodal deepfake detection system designed to identify manipulated media by analyzing both visual and audio signals.  
-It combines computer vision, audio analysis, and intelligent fusion techniques to deliver reliable and scalable deepfake detection.
-
+DeepGuard is a multimodal system that uses a deep learning architecture to detect manipulated multimedia by analyzing the visual as well as the audio components.
+It uses computer vision, audio analysis, and intelligent fusion methods and is capable of robust and scalable deepfake detection.
 
 # About the Project
 DeepGuard is an initiative that has been constructed to detect fakes and manipulated media like deepfakes. With the emergence of AI and AI-generated media, the authenticity of real and fake media has been harder to distinguish. DeepGuard has been developed to address this issue by integrating the data from the image and audio paths.
