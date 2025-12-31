@@ -33,5 +33,6 @@ By using this multimodal approach, the system can identify subtle mismatches bet
 
 The main idea is to build a simple, efficient, and trustworthy system that helps verify digital content and reduce the spread of manipulated media.
 
+<img width="282" height="591" alt="deepguard_system_flow" src="https://github.com/user-attachments/assets/618ca51d-bbfb-4b12-a447-19a279432894" />
 
-[deepguard_system_flow.drawio](https://github.com/user-attachments/files/24391384/deepguard_system_flow.drawio)
+
