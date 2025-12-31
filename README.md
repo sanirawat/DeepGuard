@@ -43,13 +43,13 @@ The overall working of DeepGuard follows a simple and structured pipeline that p
 The system takes image, video, or audio files as supplied by the user.
 
 2. Preprocessing:
-+ Videos are segmented into frames.
-+ The audio portion comes from the video or direct audio processing.
-+ Face detection for visual analysis is performed.
+   + Videos are segmented into frames.
+   + The audio portion comes from the video or direct audio processing.
+   + Face detection for visual analysis is performed.
   
 3. Feature Extraction:
-+ The visual features are extracted by using deep learning models.
-+ Extraction of audio features is done through signal processing.
+   + The visual features are extracted by using deep learning models.
+   + Extraction of audio features is done through signal processing.
 
 4. Multimodal Fusion:
    Results of both visual analysis and audio analysis are incorporated together for better accuracy and results.
