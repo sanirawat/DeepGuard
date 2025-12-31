@@ -32,3 +32,6 @@ DeepGuard works by:
 By using this multimodal approach, the system can identify subtle mismatches between what is seen and what is heard — a common trait of deepfakes.
 
 The main idea is to build a simple, efficient, and trustworthy system that helps verify digital content and reduce the spread of manipulated media.
+
+
+<img width="1204" height="2444" alt="image" src="https://github.com/user-attachments/assets/e607f965-6009-4238-8da6-1e3544cfb74a" />
