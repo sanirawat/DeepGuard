@@ -6,33 +6,32 @@ It combines computer vision, audio analysis, and intelligent fusion techniques t
 
 
 # About the Project
-DeepGuard is a project built to help identify fake or manipulated media such as deepfake images, videos, and audio. With the rise of AI-generated content, it has become harder to tell what is real and what is fake. DeepGuard aims to solve this problem by checking both visual and audio information instead of relying on just one source.
+DeepGuard is an initiative that has been constructed to detect fakes and manipulated media like deepfakes. With the emergence of AI and AI-generated media, the authenticity of real and fake media has been harder to distinguish. DeepGuard has been developed to address this issue by integrating the data from the image and audio paths.
 
-The system works by analyzing faces from images or videos and also studying audio patterns. By combining both of these, DeepGuard can detect inconsistencies that usually appear in fake content, such as unnatural facial movements or mismatched audio.
+The system uses image and video facial recognition, as well as audio patterns. When these two elements come together, it allows DeepGuard to identify inconsistencies that would normally not be seen on fake videos.
 
-Unlike many existing solutions that focus only on visuals, this project uses a multimodal approach, which makes detection more reliable and closer to how humans judge authenticity. The system is designed to be simple, efficient, and flexible so it can be improved further in future stages.
+Unlike other existing works that concentrate only on visual aspects, in this project, a multimodal method is adopted, which increases the efficiency of detection and makes it more like that of humans. This system is also simple, efficient, and versatile in a manner that allows further improvements in stages coming ahead.
 
-DeepGuard can be useful in areas like social media monitoring, fake content detection, digital verification, and online safety. The goal of this project is to create a practical and trustworthy solution that helps protect digital truth.
+DeepGuard may find applications in areas such as social media monitoring, detecting deceptive content, digital verification, and online safety. The purpose of the proposed project will be to develop a functional and credible system to support the safeguarding of the truth online.
 
 # Problem Statement
-With the rapid growth of artificial intelligence, creating fake images, videos, and audio has become easier than ever. These deepfakes are increasingly used to spread misinformation, manipulate public opinion, and damage trust in digital content. Most existing detection systems focus on only one type of data, such as images or videos, which makes them unreliable when content is partially altered or manipulated in multiple ways.
+With the ever-increasing development of artificial intelligence applications, the generation of fake images and audio content is easier than ever before. Deepfakes nowadays are widely being used to mislead people by spreading misinformation and criticising digital content. Currently available solutions are designed to work with only one form of content, whether it is image or video content, so they fail when content is partially altered or is multi-type content.
 
-In addition, many existing solutions lack transparency and provide limited insight into how detection decisions are made. This often reduces user trust, especially when systems act as black boxes without clear explanations or real-time reliability.
+Further, the existing solutions lack the aspect of transparency, and the information regarding the detection decision is not provided to the user in an appropriate manner. This is observed to decrease the level of trust among the users, especially when the system is acting like a black box.
 
-There is a need for a more dependable solution that can analyze both visual and audio information together. By combining these modalities, it becomes easier to detect subtle inconsistencies that are difficult to identify using a single source.
+A better opportunity has arisen that requires a more reliable approach that is capable of analyzing both visual elements as well as audio details collectively. This is mainly because it becomes easier to recognize even minute gaps through a combination of both aspects.
 
-DeepGuard aims to solve this problem by providing a multimodal deepfake detection system that analyzes images, videos, and audio together to identify manipulated content accurately and efficiently. The goal is to build a system that is practical, transparent, and scalable, supporting real-world digital trust and media verification.
+DeepGuard seeks to address this issue with a multimodal deepfake detection solution that evaluates visual, video, and audio content together to detect deceitfully created content with maximum accuracy and efficiency. The objective is to develop a solution that is applicable, transparent, and scalable so as to facilitate digital trust and content verification.
+
 # Core Idea
-The core idea of DeepGuard is to detect deepfakes by analyzing both visual and audio information together, instead of relying on just one type of data. Most fake media can trick systems that only look at images or only listen to audio, but inconsistencies often appear when both are examined at the same time.
+The basic concept of DeepGuard is that it tries to identify deepfakes by analyzing visual and audio aspects simultaneously and not just one of them. Most of the fake videos are capable of deceiving systems that analyze images alone and those that analyze audio alone, but problems are created when they are analyzed simultaneously.
 
-DeepGuard works by:
-- Studying facial features and movements from images or videos
-- Analyzing audio patterns such as tone and speech characteristics
-- Combining both results to make a final and more reliable decision
+DeepGuard operates by:
+- Analysis of facial characteristics and expressions in images and video frames
+- Audio pattern analysis like tone and speech features
+- The combination of the two outcomes to form the final and more accurate decision
 
-By using this multimodal approach, the system can identify subtle mismatches between what is seen and what is heard — a common trait of deepfakes.
-
-The main idea is to build a simple, efficient, and trustworthy system that helps verify digital content and reduce the spread of manipulated media.
+Through the application of this multimodal system, the tool is now able to pick up minimal discrepancies existing between the video and the audio, which is characteristic of deepfakes. The prime focus is developing an efficient and trustworthy system that allows easy verification of digital media and works towards limiting the proliferation of altered media.
 
 # System Flow
 The overall working of DeepGuard follows a simple and structured pipeline that processes input data and produces a final authenticity prediction.
@@ -42,20 +41,20 @@ The overall working of DeepGuard follows a simple and structured pipeline that p
 ### Step-by-Step Explanation:
 
 1. Input Collection:
-The system accepts images, videos, or audio files provided by the user.
+The system takes image, video, or audio files as supplied by the user.
 
 2. Preprocessing:
-   + Videos are broken into frames.
-   + Audio is extracted from videos or processed directly.
-   + Faces are detected for visual analysis.
-
++ Videos are segmented into frames.
++ The audio portion comes from the video or direct audio processing.
++ Face detection for visual analysis is performed.
+  
 3. Feature Extraction:
-   + Visual features are extracted using deep learning models.
-   + Audio features are extracted using signal processing techniques.
++ The visual features are extracted by using deep learning models.
++ Extraction of audio features is done through signal processing.
 
 4. Multimodal Fusion:
-Results from both visual and audio analysis are combined to improve accuracy and reliability.
-
+   Results of both visual analysis and audio analysis are incorporated together for better accuracy and results.
+   
 5. Final Output:
-The system classifies the input as Real or Fake, along with a confidence score.
+   It will either classify the input as "Real" or "Fake" with some degree of "confidence."
 
