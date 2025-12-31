@@ -34,7 +34,27 @@ By using this multimodal approach, the system can identify subtle mismatches bet
 The main idea is to build a simple, efficient, and trustworthy system that helps verify digital content and reduce the spread of manipulated media.
 
 # System Flow
+The overall working of DeepGuard follows a simple and structured pipeline that processes input data and produces a final authenticity prediction.
 
    <img width="282" height="591" alt="deepguard_system_flow" src="https://github.com/user-attachments/assets/618ca51d-bbfb-4b12-a447-19a279432894" />
+   
+### Step-by-Step Explanation:
 
+1. Input Collection
+The system accepts images, videos, or audio files provided by the user.
+
+2. Preprocessing
+-Videos are broken into frames.
+-Audio is extracted from videos or processed directly.
+-Faces are detected for visual analysis.
+
+3. Feature Extraction
+-Visual features are extracted using deep learning models.
+-Audio features are extracted using signal processing techniques.
+
+4. Multimodal Fusion
+Results from both visual and audio analysis are combined to improve accuracy and reliability.
+
+5. Final Output
+The system classifies the input as Real or Fake, along with a confidence score.
 
